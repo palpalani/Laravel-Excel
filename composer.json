@@ -59,6 +59,7 @@
       "url": "git@github.com:ilario-pierbattista/PHPExcel.git"
     }
   ],
+  "minimum-stability": "dev",
   "extra": {
         "laravel": {
             "providers": [
