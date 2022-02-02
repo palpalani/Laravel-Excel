@@ -55,9 +55,8 @@
   },
   "repositories": [
     {
-      "type": "vcs",
-      "url": "git@github.com:ilario-pierbattista/PHPExcel.git",
-      "no-api": true
+      "type": "git",
+      "url": "git@github.com:ilario-pierbattista/PHPExcel.git"
     }
   ],
   "extra": {
