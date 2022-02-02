@@ -19,7 +19,7 @@
   ],
   "require": {
     "php": ">=5.5",
-    "phpoffice/phpexcel": "*",
+    "phpoffice/phpexcel": "dev-php-7.4",
     "illuminate/cache": "^5.0",
     "illuminate/config": "^5.0",
     "illuminate/filesystem": "^5.0",
@@ -53,6 +53,13 @@
       "tests/TestCase.php"
     ]
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:ilario-pierbattista/PHPExcel.git",
+      "no-api": true
+    }
+  ],
   "extra": {
         "laravel": {
             "providers": [
